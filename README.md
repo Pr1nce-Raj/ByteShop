@@ -26,10 +26,10 @@ Make sure you have [Node.js](https://nodejs.org/) (version 18 or newer) installe
 
 ```bash
 # 1. Clone your fork of the repository
-git clone https://github.com/<your-username>/Bytes.io.git
+git clone https://github.com/<your-username>/ByteShop.git
 
 # 2. Navigate to the project directory
-cd Bytes.io
+cd ByteShop
 
 # 3. Install project dependencies
 npm install
@@ -55,7 +55,7 @@ We have pre-planted **10 isolated, beginner-friendly issues** designed to teach 
 ## 📁 Project Architecture
 
 ```
-Bytes.io/
+ByteShop/
 ├── index.html                   # HTML entry point
 ├── package.json                 # Project configuration & scripts
 ├── vite.config.js               # Vite bundler config

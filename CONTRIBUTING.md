@@ -17,15 +17,15 @@ Follow these steps to make your contribution smoothly:
 
 ### 2. Fork the Repository
 - Click the **Fork** button in the top-right corner of the GitHub repository page.
-- This creates a copy of the repository in your personal GitHub account (`https://github.com/<your-username>/Bytes.io`).
+- This creates a copy of the repository in your personal GitHub account (`https://github.com/<your-username>/ByteShop`).
 
 ---
 
 ### 3. Clone Your Fork Locally
 Open your terminal (PowerShell, Command Prompt, or Bash) and run:
 ```bash
-git clone https://github.com/<your-username>/Bytes.io.git
-cd Bytes.io
+git clone https://github.com/<your-username>/ByteShop.git
+cd ByteShop
 ```
 
 ---
@@ -76,7 +76,7 @@ git push origin fix/1-banner-typo
 ---
 
 ### 8. Open a Pull Request (PR)
-1. Go to your fork on GitHub (`https://github.com/<your-username>/Bytes.io`).
+1. Go to your fork on GitHub (`https://github.com/<your-username>/ByteShop`).
 2. You will see a green button: **"Compare & pull request"**. Click it.
 3. Fill out the PR template:
    - Provide a brief summary of what you fixed.

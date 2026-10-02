@@ -214,7 +214,7 @@
 - **Fix**:
   ```jsx
   <a
-    href="https://github.com/your-username/Bytes.io"
+    href="https://github.com/your-username/ByteShop"
     target="_blank"
     rel="noopener noreferrer"
     className="text-slate-400 hover:text-indigo-400 transition-colors p-2 rounded-lg hover:bg-slate-800"
