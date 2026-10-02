@@ -5,11 +5,9 @@ export default function Footer() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
-  // BUG #9: Newsletter form does not show any confirmation feedback upon submission
-  // Fix: When user submits with a valid email, setSubscribed(true) or show a success notice
   const handleSubscribe = (e) => {
     e.preventDefault();
-    // Intentionally empty: no feedback given to the user
+    setSubscribed(true);
   };
 
   return (
