@@ -3,11 +3,14 @@
 [![React](https://img.shields.io/badge/React-18.3-61dafb?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646cff?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Deployment](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel&logoColor=white)](https://byte-shop-gamma.vercel.app/)
 [![Good First Issues](https://img.shields.io/badge/Good%20First%20Issues-Welcome-brightgreen)](#)
 [![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Ready-orange)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A clean, minimalist e-commerce storefront for developer books and tech gadgets. **ByteShop** is specifically designed as a beginner-friendly practice ground for first-time open source contributors.
+
+🔗 **Live Demo**: [https://byte-shop-gamma.vercel.app/](https://byte-shop-gamma.vercel.app/)
 
 ---
 
