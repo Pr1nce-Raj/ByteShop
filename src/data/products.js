@@ -17,7 +17,7 @@ export const INITIAL_PRODUCTS = [
     price: 32,
     rating: 4.9,
     reviewsCount: 310,
-    image: "https://images.unsplash.com/photo-1532012164546-f432f2e3777a?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80",
     description: "A handbook of agile software craftsmanship and best programming practices.",
     inStock: true
   },
