@@ -1,46 +1,46 @@
 export const INITIAL_PRODUCTS = [
   {
     id: 1,
-    name: "Minimalist Mechanical Keyboard",
+    name: "Custom Mechanical Keyboard",
     category: "Electronics",
     price: 89,
     rating: 4.8,
     reviewsCount: 124,
-    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
-    description: "Compact 75% layout with tactile switches and customizable RGB backlighting.",
+    image: "/products/keyboard.jpg",
+    description: "Compact layout with tactile switches and custom colorful retro keycaps.",
     inStock: true
   },
   {
     id: 2,
-    name: "Clean Code Handbook",
+    name: "Python Developer Handbook",
     category: "Books",
     price: 32,
     rating: 4.9,
     reviewsCount: 310,
-    image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80",
-    description: "A handbook of agile software craftsmanship and best programming practices.",
+    image: "/products/codebook2.jpg",
+    description: "Practical algorithms, data structures, and automation principles in Python.",
     inStock: true
   },
   {
     id: 3,
-    name: "Ergonomic Vertical Mouse",
+    name: "Precision Wireless Mouse",
     category: "Electronics",
     price: 45,
     rating: 4.6,
     reviewsCount: 88,
-    image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
-    description: "Designed to reduce wrist strain during long hours of coding and studying.",
+    image: "/products/mouse.jpg",
+    description: "Lightweight ergonomic shell with high-DPI optical sensor for work and gaming.",
     inStock: true
   },
   {
     id: 4,
-    name: "Designing Data-Intensive Apps",
+    name: "Computer Science Textbooks Stack",
     category: "Books",
     price: 42,
     rating: 4.9,
     reviewsCount: 245,
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
-    description: "The definitive guide to the architecture, storage, and processing of modern data systems.",
+    image: "/products/book_data.jpg",
+    description: "Foundational reference collection covering data structures, networks, and algorithms.",
     inStock: true
   },
   {
@@ -50,44 +50,44 @@ export const INITIAL_PRODUCTS = [
     price: 58,
     rating: 4.7,
     reviewsCount: 92,
-    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
-    description: "Water-resistant travel backpack with padded 15-inch laptop compartment and USB port.",
+    image: "/products/backpack.jpg",
+    description: "Water-resistant commuter backpack with dedicated 15-inch laptop compartment.",
     inStock: true
   },
   {
     id: 6,
-    name: "Aluminum Laptop Stand",
+    name: "Minimalist Architectural Desk Lamp",
     category: "Accessories",
     price: 29,
     rating: 4.5,
     reviewsCount: 67,
-    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80",
-    description: "Foldable, ergonomic aluminum riser with optimal airflow ventilation.",
+    image: "/products/lamp.jpg",
+    description: "Warm glare-free reading light designed for late-night study and coding sessions.",
     inStock: false
   },
   {
     id: 7,
-    name: "Dual-Sided Desk Pad & Mat",
+    name: "Ceramic Developer Coffee Mug",
     category: "Accessories",
     price: 18,
     rating: 4.6,
     reviewsCount: 114,
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-    description: "Waterproof vegan leather mat providing smooth gliding surface for work setups.",
+    image: "/products/mug.jpg",
+    description: "Heavyweight ceramic mug for your daily dose of morning caffeine and productivity.",
     inStock: true
   },
   {
     id: 8,
-    name: "The Pragmatic Programmer",
+    name: "Tech Startup & Strategy Book Set",
     category: "Books",
     price: 36,
     rating: 4.9,
     reviewsCount: 420,
-    image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=600&q=80",
-    description: "Classic insights and career-defining guidance from journeyman to master.",
+    image: "/products/book_pragmatic.jpg",
+    description: "Essential library including Zero to One, Startup Owner's Manual, and leadership guides.",
     inStock: true
   }
   // NOTE FOR CONTRIBUTORS (Issue #7):
   // The store currently has categories: "Electronics", "Books", "Accessories".
-  // Issue #7 is to add a new product in the "Audio" category (e.g., Wireless Noise-Cancelling Headphones).
+  // Issue #7 is to add a new product in the "Audio" category (e.g. Wireless Noise-Cancelling Headphones using "/products/headphones.jpg").
 ];
