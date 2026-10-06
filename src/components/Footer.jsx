@@ -30,7 +30,7 @@ export default function Footer() {
               {/* BUG #10: GitHub link points to "#" instead of a valid repository link */}
               {/* Fix: Update href="#" to your GitHub repository URL */}
               <a
-                href="#"
+                href="https://github.com/Pr1nce-Raj/ByteShop"
                 className="text-slate-400 hover:text-indigo-400 transition-colors p-2 rounded-lg hover:bg-slate-800"
                 aria-label="GitHub Repository"
               >
