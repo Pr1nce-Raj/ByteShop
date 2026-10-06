@@ -86,11 +86,7 @@ export default function CartDrawer({
 
                   type="button"
 
-                  onClick={() => {
-
-                    // Empty handler! Clear cart does nothing.
-
-                  }}
+                  onClick={onClearCart}
 
                   className="text-xs text-rose-600 hover:text-rose-700 font-semibold transition-colors"
 
