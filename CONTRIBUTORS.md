@@ -24,4 +24,5 @@ Welcome to the **ByteShop** community! This file celebrates everyone who made th
 - **[Alex Chen](https://github.com/)** - Student Contributor | Favorite Book: *Clean Code*
 - **[Samira Patel](https://github.com/)** - Design & Frontend | Favorite Gadget: *Ergonomic Mouse*
 
+- **[Muhamad Raza Haider](https://github.com/rootsiemen)** - Web Developer | Favorite Gadget: *Noise-Cancelling Headphones*
 <!-- Add your name above this line in your pull request! -->
