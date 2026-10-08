@@ -25,7 +25,7 @@ export default function Navbar({ cart, onOpenCart }) {
         {/* Navigation / Links */}
         <div className="flex items-center gap-3 sm:gap-4">
           <a
-            href="https://github.com"
+            href="https://github.com/Pr1nce-Raj/ByteShop"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex items-center gap-1.5 text-xs font-semibold text-slate-600 hover:text-indigo-600 transition-colors px-3 py-1.5 rounded-lg hover:bg-slate-100"
