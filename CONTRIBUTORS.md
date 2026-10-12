@@ -25,4 +25,5 @@ Welcome to the **ByteShop** community! This file celebrates everyone who made th
 - **[Samira Patel](https://github.com/)** - Design & Frontend | Favorite Gadget: *Ergonomic Mouse*
 - **[wufangyong973](https://github.com/wufangyong973)** - Open source contributor | Favorite Gadget: *Custom Mechanical Keyboard*
 
+- **[Muhamad Raza Haider](https://github.com/rootsiemen)** - Web Developer | Favorite Gadget: *Noise-Cancelling Headphones*
 <!-- Add your name above this line in your pull request! -->
