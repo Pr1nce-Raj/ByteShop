@@ -166,9 +166,13 @@ export default function CartDrawer({
                     className="w-14 h-14 rounded-xl object-cover bg-slate-100 border border-slate-200"
 
                     onError={(e) => {
-
-                      e.currentTarget.src = "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80";
-
+                      const img = e.currentTarget;
+                      // Guard: if the fallback image also fails to load (e.g. user is
+                      // offline), stop here — otherwise error events fire in an endless
+                      // loop because React keeps this handler attached on every error.
+                      if (img.dataset.fallbackApplied) return;
+                      img.dataset.fallbackApplied = "true";
+                      img.src = "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=600&q=80";
                     }}
 
                   />
