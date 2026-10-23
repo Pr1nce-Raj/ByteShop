@@ -79,7 +79,7 @@ export default function App() {
         <Banner />
 
         {/* Filter Controls Bar */}
-        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 mb-8 bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs">
+        <div id="categories" className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 mb-8 bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs scroll-mt-24">
           <SearchBar
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
@@ -91,7 +91,7 @@ export default function App() {
         </div>
 
         {/* Section Heading & Result Count */}
-        <div className="flex items-center justify-between mb-6">
+        <div id="products" className="flex items-center justify-between mb-6 scroll-mt-24">
           <div className="flex items-center gap-2">
             <h2 className="text-lg font-bold text-slate-900">Featured Catalog</h2>
             <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-slate-100 text-slate-600">
