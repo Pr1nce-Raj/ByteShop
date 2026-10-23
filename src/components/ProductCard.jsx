@@ -12,7 +12,7 @@ export default function ProductCard({ product, onAddToCart, isAdded }) {
 
       {/* Product Image */}
 
-      <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+      <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
 
         <img
 
